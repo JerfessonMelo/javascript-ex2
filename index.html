@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScriptEx2</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <label for="altura">Sua Altura Em Cintímetros</label>
+        <input type="number" id="altura" name="altura" required>
+
+        <label for="Sexo">Selecione Seu Sexo</label>
+
+        <div id="sexo">
+            <input type="radio" id="sexoM" name="sexo" value="Masculino" required>
+            <label for="sexoM">Masculino</label>
+
+            <input type="radio" id="sexoF" name="sexo" value="Feminino" required>
+            <label for="sexoF">Feminino</label>
+        </div>
+        <button type="button" onclick="pegarValor()">Calcular</button>
+    </form>
+
+    <p id="pesoIdeal"></p>
+</body>
+
+</html>
