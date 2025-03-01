@@ -8,6 +8,5 @@ function pegarValor(){
         } else if (sexoSelecionado.value == "Masculino") {
             pesoIdeal = 52 + (0.75 * (altura / 100));
     }
-
     document.getElementById("pesoIdeal").textContent = "Peso Ideal: " + pesoIdeal.toFixed(2);
 }
